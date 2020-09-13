@@ -216,15 +216,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 156152754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5c8594d06ff52b44935aaac490710f2, type: 3}
+  m_Script: {fileID: 11500000, guid: e838964cb8b071040aaa996ac37646ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnList:
-  - {fileID: 8335979026422413414, guid: c42101f062c4af748a2ef8850bc5e807, type: 3}
-  - {fileID: 8154545975754736374, guid: abb6ece8ec847ef449677bf1d53a76e3, type: 3}
-  - {fileID: 5187940781228174911, guid: b76bc3daa4774474197c0a3e94a5a2b8, type: 3}
-  objectsCreated: []
-  _initColorChange: 0
 --- !u!1 &566758536
 GameObject:
   m_ObjectHideFlags: 0
