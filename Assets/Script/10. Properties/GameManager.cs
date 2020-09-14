@@ -145,3 +145,17 @@ using UnityEngine;
 // }
 
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// GameManager del proyecto "16. Delegates & Events" - 05_Practical Event Driven Programming
+
+public class GameManager : MonoBehaviour
+{
+    private void OnEnable() 
+    {
+        EDPPlayer.onDeath += ResetPlayer;
+    }
+    public void ResetPlayer()
+    {
+        Debug.Log("Resetting Player");
+    }
+}
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
